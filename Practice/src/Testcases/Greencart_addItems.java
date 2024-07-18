@@ -31,6 +31,7 @@ public static void addItems(WebDriver driver, String[] itemsList) {
 		String OriginalName = name[0].trim();
 		List itemsNeededList = Arrays.asList(itemsList);
 
+		
 		j++;
 
 		if (itemsNeededList.contains(OriginalName)) {
