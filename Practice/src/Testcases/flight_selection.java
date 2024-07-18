@@ -42,9 +42,12 @@ public class flight_selection {
 		driver.findElement(By.cssSelector("input[data-testid='traveller-0-last-traveller-info-input-box']")).sendKeys("Sai Sindhuja");
 		driver.findElement(By.cssSelector("input[data-testid='sc-member-mobile-number-input-box']")).sendKeys("9494195672");
 		System.out.println(driver.findElement(By.xpath("//div[@class='css-1dbjc4n r-1awozwy r-18u37iz r-1wtj0ep r-1mdbw0j r-oyd9sg']")));
-		driver.findElement(By.xpath("//div[@data-testid='traveller-info-continue-cta']")).click();		
+		driver.findElement(By.xpath("//div[@data-testid='traveller-info-continue-cta']")).click();	
+		
 	
 	
 	}
 	
 }
+
+
